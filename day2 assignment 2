@@ -1,0 +1,17 @@
+
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title> 
+        print current day and time 
+    </title> 
+</head> 
+  
+<body> 
+    <script type="text/javascript"> 
+        document.write(window.print());
+    </script> 
+</body> 
+  
+</html>
