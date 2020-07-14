@@ -1,0 +1,21 @@
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title> 
+        print current DAte in specified format
+    </title> 
+</head> 
+  
+<body> 
+    <script type="text/javascript"> 
+        var myDate = new Date(); 
+        var myDay = myDate.getDate();
+    var month=myDate.getMonth();
+    var year=myDate.getFullYear();
+    document.write(myDay+ "-" + month+ "-" +year); 
+      </script>  
+     
+</body> 
+  
+</html>
